@@ -1,0 +1,59 @@
+.chatbox {
+  width: 60%;
+  margin: 60px auto;
+  background: #fefefe;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 0 18px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.chatlog {
+  max-height: 400px;
+  overflow-y: auto;
+  margin-bottom: 20px;
+  padding: 15px;
+  background-color: #f4f6f8;
+  border-radius: 12px;
+  border: 1px solid #ddd;
+}
+
+.chatlog .user {
+  text-align: right;
+  background-color: #d4f8d4; /* light green background */
+  color: #1b5e20;            /* dark green text */
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 10px;
+  max-width: 70%;
+  margin-left: auto;
+  font-weight: bold;
+}
+
+.chatlog .assistant {
+  text-align: left;
+  margin: 8px 0;
+}
+
+input[type="text"] {
+  width: 80%;
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  margin-right: 10px;
+}
+
+button {
+  padding: 12px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
