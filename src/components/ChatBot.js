@@ -7,7 +7,7 @@ const ChatBot = () => {
   const [input, setInput] = useState("");
   const messagesEndRef = useRef(null);
 
-  const API_KEY = "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"; // Replace with your actual key
+  const API_KEY = "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"; // Replace with your actual key
 
   const scrollToBottom = () => {
     messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });
