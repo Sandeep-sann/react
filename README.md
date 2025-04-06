@@ -63,7 +63,7 @@ Open http://localhost:3000 to view it in the browser.
 Deployment
 You can deploy it on GitHub Pages, Vercel, or Netlify.
 
-To deploy on GitHub Pages:
+To deploy on GitHub Pages: 
 
 Add this to package.json:
 
