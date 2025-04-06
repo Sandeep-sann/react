@@ -1,8 +1,13 @@
 {
-  "name": "react-product-chatbot",
+  "name": "react-customer-query-assistant",
   "version": "1.0.0",
   "private": true,
-  "description": "A React-based product chatbot using OpenRouter API and DeepSeek model.",
+  "dependencies": {
+    "gh-pages": "^6.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -11,11 +16,11 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-scripts": "5.0.1",
-    "gh-pages": "^6.0.0"
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
   },
   "browserslist": {
     "production": [
@@ -28,16 +33,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "homepage": "https://<your-username>.github.io/react-product-chatbot",
-  "keywords": [
-    "react",
-    "chatbot",
-    "openrouter",
-    "grok",
-    "deepseek",
-    "product-recommendation"
-  ],
-  "author": "Jaya Naga Sandeep",
-  "license": "MIT"
+  }
 }
