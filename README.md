@@ -67,9 +67,6 @@ To deploy on GitHub Pages:
 
 Add this to package.json:
 
-json
-Copy code
-"homepage": "https://your-username.github.io/your-repo-name"
 Then run:
 
 bash
@@ -78,7 +75,11 @@ npm run build
 npm install --save-dev gh-pages
 npm run deploy
 License
-This project is licensed under the MIT License.
 
+to install packages use npm install
+include package.json in your directory
+run in cmd npm install
+
+after that 
 use "npm start"
 to run your react app
